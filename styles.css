@@ -1,0 +1,101 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(touann-gatouillat-vergos-i8om-rcoiFY-unsplash.jpg);
+    background-size: cover;
+    z-index: 0;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+h1{
+    color: #ffffff;
+    font-size: 35px;
+    padding: 5px 8px;
+    margin: 5px 8px;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 3px 0;
+}
+
+#taskInput {
+    padding: 5px 5px;
+    margin: 3px 3px;
+    font-size: 17px;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  #addTask {
+    padding: 5px 5px;
+    margin: 3px 3px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+
+#taskList{
+    padding: 5px 32px;
+    margin: 5px 10px;
+    line-height: 3;
+    font-size: 20px;
+    list-style: auto;
+}
+
+.task {
+    padding: 4px 8px;
+    margin: 6px 0px;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#taskList .task button{
+    padding: 5px 5px;
+    margin: 5px 5px;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+
+.mang{
+    color: #00000099;
+    position: relative;
+    left: 193px;
+    bottom: 32px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+  }
+
+  input[type="checkbox"] {
+    accent-color: #38df38f0;
+  }
+
+  #taskCounter {
+    font-size: 15px;
+    color: #ffffff;
+    margin: 10px 0;
+  }
+
+  #taskInput,
+#addTask {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
